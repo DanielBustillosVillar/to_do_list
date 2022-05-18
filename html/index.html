@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+      <h1>TO DO LIST</h1>  
+      <form action="" id="form-nueva-tarea">
+          <input type="text" id="input-nueva-tarea" placeholder="¿Qué tienes planeado?">
+          <input type="submit" id="submit-nueva-tarea" value="Agregar tarea">
+      </form>
+    </header>
+    <main>
+        <section class="lista-tarea">
+            <h2>Tareas</h2>
+            <div id="tareas">
+                <div class="tarea">
+                    <div class="contenido">
+                        <input type="text" class="text" value="Mi tarea" readonly>
+                    </div>
+                    <div class="acciones">
+                        <button class="editar">Editar</button>
+                        <button class="eliminar">Eliminar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="../js/main.js"></script>
+</body>
+</html>
