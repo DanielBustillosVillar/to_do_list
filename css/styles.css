@@ -99,6 +99,9 @@ main{
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+#tareas .tarea .contenido{
+    flex: 1 1 0%;
+}
 #tareas .tarea .contenido .texto{
     color: var(--claro);
     font-size: 1.125rem;
@@ -107,9 +110,6 @@ main{
     transition: 0.4s;
 }
 
-#tareas .tareas .contenido .texto:not(:read-only){
-    color: var(--rosado);
-}
 
 #tareas .tarea .acciones{
     display: flex;
